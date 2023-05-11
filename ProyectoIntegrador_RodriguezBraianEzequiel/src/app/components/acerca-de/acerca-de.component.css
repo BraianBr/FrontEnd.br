@@ -1,10 +1,7 @@
 .row{
     padding: 20px;
 }
-div{
-    background-image: url(../../../assets/footer-bg.png);
-    background-position:center;
-}
+
 #nombre{
     font-weight: bold;
     margin-top: 10.5%;
