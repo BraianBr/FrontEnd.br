@@ -7,6 +7,10 @@
     margin-top: 10.5%;
     
 }
+#titulo{
+    font-style: italic;
+    font-weight: 500;
+}
 @media (min-width: 576px){
     #fotoPerfil{
         position: absolute;
@@ -24,7 +28,7 @@
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left:33%;
-        top: 530px;
+        top: 520px;
     }
     #nombre{
         text-align: center;
