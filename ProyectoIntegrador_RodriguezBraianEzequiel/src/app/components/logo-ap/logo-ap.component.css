@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 1rem;
+}
+#github , #linkedin{
+    width: 70px;
+    padding: 0.5em;
+}
+.btn{
+   border-width:2px; 
+   font-weight:bold;
+   padding: 0.5em;
+}
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+    #github, #linkedin{
+        width: 35px;
+        padding: 0.2em; ;
+    }
+    .btn{
+        border-width: 1px;
+    }
+}
