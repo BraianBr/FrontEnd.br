@@ -17,3 +17,17 @@ img{
 .img2{
     text-align: right;
 }
+@media (max-width: 575px) {
+    .row{
+        display: flex;
+        font-size:xx-small;
+        text-align:center;
+        align-items:center ;
+    }
+    img{
+        width: 130%;
+    }
+    .img1, .img2{
+        text-align: right;
+    }
+}
