@@ -1,0 +1,10 @@
+.gradient-custom {
+   background-image: url(../../../assets/login_bg.png);
+   background-repeat: round;
+    }
+
+@media (max-width: 575px){
+.gradient-custom{
+    background-repeat:initial;
+}
+}
