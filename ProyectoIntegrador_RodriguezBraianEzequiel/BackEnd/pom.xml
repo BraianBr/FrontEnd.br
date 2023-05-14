@@ -59,7 +59,7 @@
                     <groupId>io.jsonwebtoken</groupId>
                     <artifactId>jjwt</artifactId>
                     <version>0.9.1</version>
-                 </dependen>
+                 </dependency>
                 <dependency>
                     <groupId>org.apache.commons</groupId>
                     <artifactId>commons-lang3</artifactId>
