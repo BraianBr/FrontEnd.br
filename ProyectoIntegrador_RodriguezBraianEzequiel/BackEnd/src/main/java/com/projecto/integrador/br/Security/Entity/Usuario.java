@@ -1,3 +1,8 @@
+
+
+
+
+
 package com.projecto.integrador.br.Security.Entity;
 
 import java.util.HashSet;
@@ -33,6 +38,9 @@ public class Usuario {
     
     //Constructores
 
+    public Usuario() {
+    }
+    
     public Usuario(String nombre, String nombreUsuario, String email, String password) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
