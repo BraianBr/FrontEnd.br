@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-/*
+
 package com.projecto.integrador.br.Controller;
 
 import com.projecto.integrador.br.Dto.dtoExperiencia;
 import com.projecto.integrador.br.Entity.Experiencia;
-import com.portfolio.mgb.Security.Controller.Mensaje;
+import com.projecto.integrador.br.Security.Controller.Mensaje;
 import com.projecto.integrador.br.Service.SExperiencia;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = {"https://mgbfrontend.web.app","http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;
@@ -86,7 +86,6 @@ public class CExperiencia {
         
         sExperiencia.save(experiencia);
         return new ResponseEntity(new Mensaje("Experiencia actualizada"), HttpStatus.OK);
-             
-    }
+    
+    }       
 }
-*/
