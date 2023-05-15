@@ -1,5 +1,5 @@
 export class LoginUsuario {
-    nombreUsuario: String;
+    nombreUsuario: string;
     password: string;
 
     constructor(nombreUsuario: string, password:string){

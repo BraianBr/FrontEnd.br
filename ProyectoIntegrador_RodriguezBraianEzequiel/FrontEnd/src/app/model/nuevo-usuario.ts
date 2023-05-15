@@ -1,7 +1,7 @@
 export class NuevoUsuario {
-    nombre!: String;
-    nombreUsuario!: String;
-    email!:String;
+    nombre!: string;
+    nombreUsuario!: string;
+    email!:string;
     password!: string;
-    authorities!: String[];
+    authorities!: string[];
 }
