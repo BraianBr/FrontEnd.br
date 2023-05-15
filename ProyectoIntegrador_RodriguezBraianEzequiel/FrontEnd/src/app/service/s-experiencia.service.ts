@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-expURL ='http://localhost:8080/explab/'
+expURL ='https://backend-br.fly.dev/explab/'
 
 constructor(private httpClient: HttpClient) { }
 
