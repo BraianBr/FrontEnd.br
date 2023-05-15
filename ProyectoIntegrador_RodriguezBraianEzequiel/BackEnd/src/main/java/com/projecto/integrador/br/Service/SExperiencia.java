@@ -2,6 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+
 package com.projecto.integrador.br.Service;
 
 import com.projecto.integrador.br.Entity.Experiencia;
@@ -33,6 +34,7 @@ public class SExperiencia {
     public void save(Experiencia expe){
         rExperiencia.save(expe);
     }
+    
     public void delete(int id){
         rExperiencia.deleteById(id);
     }
