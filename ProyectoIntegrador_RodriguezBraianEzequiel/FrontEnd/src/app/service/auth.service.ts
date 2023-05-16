@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://backend-br.fly.dev/auth/';
+  authURL = 'backend-br.fly.dev/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
