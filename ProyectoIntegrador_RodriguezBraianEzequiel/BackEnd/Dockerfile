@@ -1,4 +1,4 @@
-FROM amazoncorreto:11-alpine-jdk
-MAINTAINER br
-COPY target/br-0.0.1-SNAPSHOT.jar br-app.jar
-ENTRYPOINT["java,"-jar","/br-app.jar]
+FROM ibm-semeru-runtimes:open-11-jre-focal
+EXPOSE 8080
+ADD ./target/*.jar ./app.jar
+CMD java -Djava.security.egd=file:/dev/./urandon -jar app.jar
