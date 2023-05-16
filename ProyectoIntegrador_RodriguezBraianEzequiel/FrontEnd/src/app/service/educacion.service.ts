@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'http://localhost:8080/educacion/';
+  URL = 'backend-br.fly.dev/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 
