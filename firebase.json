@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyecto-integrador-rodriguez-braian-ezequiel",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
