@@ -6,8 +6,6 @@
 app = "backend-br"
 primary_region = "eze"
 
-
-
 [http_service]
   internal_port = 8080
   force_https = true
