@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    URL: 'backend-br.fly.dev/'
+    URL: 'https://backend-br.fly.dev/'
   };
