@@ -1,6 +1,12 @@
 <div class="row">
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+            Editar persona
+        </button>
+    </div>
+
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/imgPerfil.jpeg" alt="" class="img-fluid" id="fotoPerfil">
+        <img src={{persona.img}} class="img-fluid" id="fotoPerfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="nombre">{{persona.apellido}} {{persona.nombre}}</p>
@@ -9,7 +15,7 @@
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <span>
             <h1>Acerca de mí</h1>
-            <p>Siento una gran pasión por el sector IT y sus constantes desafíos e innovaciones que me motivan a seguir aprendiendo y mejorando. Cada día adquiero nuevas habilidades en programación y desarrollo Web que me permiten crear soluciones creativas y eficientes para los problemas actuales. Mi objetivo es nunca dejar de aprender y crecer como profesional en este campo tan dinámico y apasionante.😊</p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 </div>
